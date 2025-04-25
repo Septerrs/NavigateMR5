@@ -296,8 +296,13 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     Epstein: {
       Atrium: ["1. Turn right and make your way into hallway junction.", "2. Turn left at hallway junction and walk down the hallway and destination is in front of you"]
+    },
+    Papin: {
+      Atrium: ["1. Walk forward until you reach hallway junction.", "2. Turn right and walk forward and your destination is in front of you"]
+    },
+    Meyer:{
+      Atrium: ["1. Walk until you make your way into Papin and from Papin, walk out of door and make your way into hallway junction.", "2. Turn right and walk forward and your destination is in front of you"]
     }
-
   };
 
   function getDirections(start, end) {
